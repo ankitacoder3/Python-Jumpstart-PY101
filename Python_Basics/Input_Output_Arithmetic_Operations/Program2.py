@@ -7,7 +7,7 @@ The program reads the numbers N and K. It should print the two answers for the q
 
 #getting input from user for N and K, and typecasting the values.
 N= int(input("Enter no. of students,N:"))
-K= int(input("Enter no. of apples taken,K:"))
+K= int(input("Enter no. of apples,K:"))
 
 #the no. of apples each student gets(//)
 Each_student= K//N

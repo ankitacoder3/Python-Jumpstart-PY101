@@ -21,6 +21,9 @@ timestamp2_total_sec = ( timestamp2_hr * 3600 ) +( timestamp2_min * 60) + timest
 #Calculate the difference
 difference = timestamp1_total_sec - timestamp2_total_sec
 
+if(difference<0):
+    difference=difference*-1
+
 
 #output
 print( "The number of seconds that passed between the two timestamps is {} seconds.".format (difference))
