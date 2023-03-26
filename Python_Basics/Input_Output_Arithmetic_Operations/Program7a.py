@@ -5,7 +5,7 @@ Program to  Convert temperature in Celsius to Fahrenheit
 '''
 
 #Getting input for temperature in ‘Celsius’.
-Celsius= int(input("Enter temperature in Celsius:"))
+Celsius= float(input("Enter temperature in Celsius:"))
 
 
 

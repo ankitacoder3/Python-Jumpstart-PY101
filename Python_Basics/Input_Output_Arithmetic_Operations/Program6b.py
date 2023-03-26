@@ -6,8 +6,8 @@ Swap the contents of two memory locations Without using temporary variable.
 
 #Getting input for the variables a and b.
 
-a= int(input("a:"))
-b= int(input("b:"))
+a= float(input("a:"))
+b= float(input("b:"))
 
 
 #swaping without using a temporary variable.

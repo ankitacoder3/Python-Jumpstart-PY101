@@ -6,8 +6,8 @@ Swap the contents of two memory locations Using temporary variable.
 
 #Getting input for the variables a and b.
 
-a= int(input("a:"))
-b= int(input("b:"))
+a= (input("a:"))
+b= (input("b:"))
 
 
 #swaping using a temporary variable.
