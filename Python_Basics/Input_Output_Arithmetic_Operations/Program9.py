@@ -18,7 +18,9 @@ class3= int(input("Enter no. of students in classroom 3:"))
 
 #Calculations
 total_students = class1 + class2 + class3
-benches = total_students / 2
+if(total_students%2==1):
+    total_students=total_students+1
+benches = int(total_students / 2)
 
 
 #output

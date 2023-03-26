@@ -5,7 +5,7 @@ Given the distance between 2 cities in kilometers. Write a Python program conver
 
 #Getting input for the distance between 2 cities in kilometers .
 
-km= int(input("Enter the distance between 2 cities in kilometers:"))
+km= float(input("Enter the distance between 2 cities in kilometers:"))
 
 
 #Conversions.
