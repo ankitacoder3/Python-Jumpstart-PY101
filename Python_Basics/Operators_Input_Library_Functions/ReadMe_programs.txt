@@ -1,11 +1,11 @@
-Program1	.py	Simple_interest.py
-Program2	.py	Name_rollno.py
-Program3	.py	Sphere_volume_surface_area.py
-Program4	.py	Gravitational_force.py
-Program5	.py	Print_next_character.py
+Program1.py	Simple_interest.py
+Program2.py	Name_rollno.py
+Program3.py	Sphere_volume_surface_area.py
+Program4.py	Gravitational_force.py
+Program5.py	Print_next_character.py
 Program6.py	Swapping_using_xor.py
 Program7.py	Shipping_books_cost.py
-Program8	.py	Speed_time.py
+Program8.py	Speed_time.py
 Program9.py	Clear_RightMostBit.py
 Program10a.py	Get_random_character_from_string.py
 Program10b.py	Students_in_class.py
