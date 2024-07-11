@@ -7,64 +7,76 @@ b) Write year of release and movie name from mov1.csv to a text file
 
 print('Program to read movie data from mov1.csv file and write data to a text file.')
 
-#create a empty dictionary
+#create 2 empty dictionary
 movie_det={}
+det={}
 
 #initializing the index for the dictionary
 count=0
 
 #part a
+print("\npart A: ")
 
-#Opening a file.
-F=open('mov1.csv')
+#Opening the CSV in 'read' mode
+F=open('mov1.csv','r')
 
 #Reading from that file, and using 'strip'.
 Line=F.read()
 Line=Line.strip()
 
-#Create a list from each line of the csv, and append the details to the dictionary
-for i in Line:
-    
-    #Use 'split', based on ','  to get the values of year, rating, etc.
-    #l1=i.split(',')
-    l1=i
+#Create a list from each line of the csv, by using 'split' on '\n'
+l1=Line.split('\n')
 
-    movie_det[count]=l1
+#Append the details to the dictionary
+for i in l1:
+    
+    #create another list, by using 'split' on ','
+    l2=i.split(',')
+
+    #appending to dictionary 'det'
+    det['Year'] = l2[0]
+    det['Rating'] = l2[1]
+    det['Movie Name'] = l2[2]
+
+    #appending to dictionary 'movie_det'
+    movie_det[count]=det
+
+    #reseting the values
+    det={}
+
     count+=1 #increment count
 
 #Printing the READ details using the dictionary, as output for part(a).
-print("\npart (a): ")
-
 print("\n'Sl. No.' | ['Year', 'Ratings', 'Movie-name' ] \n \n ")
 for key,value in movie_det.items():
     print(key, ' : ', value)
 print()
 
-#Closing the file.
-F.close()
-
 
 #part b
+print("\npart B: ")
 
-#Opening 2 files, one of them is text-editor(opened in write mode).
+#Opening the  text-editor (in write mode).
 f1=open('mov.txt','w')
-f2=open('mov1.csv','r')
 
-#Reading the file, using 'readline'.
-Li=f2.readline()
+#Using 'for' loop
+# 1- to read the values from the dictionaries 'movie_det' and 'det'
+# 2- to write the necessary values to the file f1
+for key,value in movie_det.items():
+    det=value
+    print(det)      
+    for k,v in det.items():
+      if(k=='Year'):
+         f1.write(v+' ')
+      elif(k=='Movie Name'):
+         f1.write(v+'\n')
 
-#Using 'while' loop , 'strip' and 'split'.
-while Li:
-   Li=Li.strip()
-   R=Li.split(",")
-   f1.write(R[0]+' '+R[2]+''+'\n')
-
-#Closing the file.
+#Closing the files.
 f1.close()
-f2.close()
+F.close()
 
 #Verifying, by opening file.
 f1=open('mov.txt')
-lin=f1.read()
-lin=lin.strip()
-print("\n \ n \t part b: \n Year, Movie \n \ n",lin)
+line=f1.read()
+line=line.strip()
+print("\nYear, Movie \n",line)
