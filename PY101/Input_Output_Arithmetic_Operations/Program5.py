@@ -2,9 +2,10 @@
 Problem Statement:
 Given a 4-digit integer number, display the individual digits & also compute the sum of digits. NOTE: without using loop’s and conversions.
 '''
+print('\nCalculate Seconds_between_timestamps.py\n')
 
 #Getting input for a 4-digit integer number.
-integer = int(input("Enter a 4-digit integer number:"))
+integer = int(input("Enter a 4-digit integer number: "))
 
 #Calculations
 digit_1 = integer // 1000
@@ -20,4 +21,5 @@ print(digit_1)
 print(digit_2)
 print(digit_3)
 print(digit_4)
-print("sum: ",sum)
+print("\nSum: ",sum)
+print()
