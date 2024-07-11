@@ -5,6 +5,7 @@ B.  send festival greetings to friends, all friends in the list                 
 C.  Given , Roll no’s as strings each separated by space, replace ROLL_NO_ in place of ROLL_ in first 3 roll no’s. Also find if user given roll no. is present or not.
 roll_no = "ROLL_01 ROLL_02 ROLL_03 ROLL_04 ROLL_05 ROLL_06 ROLL_07 ROLL_08 ROLL_09 ROLL_10"
 '''
+print('\nCalculate List_join_replace.py\n')
 
 #"answer A"
 
@@ -73,20 +74,3 @@ while n<3:
     print()
     n+=1
 print()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

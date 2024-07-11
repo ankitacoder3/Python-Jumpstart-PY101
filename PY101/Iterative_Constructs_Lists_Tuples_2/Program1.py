@@ -6,6 +6,7 @@ ii)	Ends with 'puri'
 iii)	Ends with 'dosa'
 Input: l=['pani puri','dosa','bhel puri','masala dosa','dahi puri','rava dosa','pizza topings','pizza mania']
 '''
+print('\nCalculate List_start_or_end_with.py\n')
 
 #defining the main list
 main_list=['pani puri','dosa','bhel puri','masala dosa','dahi puri','rava dosa','pizza toppings','pizza mania']
@@ -34,3 +35,4 @@ for item in main_list:
 print (f"The list that 'starts' with 'PIZZA' is:  {starts_pizza}")
 print (f"The list that 'ends' with 'PURI' is:  {ends_puri}")
 print (f"The list that 'ends' with 'DOSA' is:  {ends_dosa}")
+print()
