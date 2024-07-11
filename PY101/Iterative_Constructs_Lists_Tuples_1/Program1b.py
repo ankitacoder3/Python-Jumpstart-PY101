@@ -3,9 +3,10 @@ Problem Statement:
 Find factorial of a number
 '''
 
+print('\nCalculate Factorial.py\n')
 
 #getting input for natural  number(n).
-n= int(input("Enter a natural number,n:"))
+n= int(input("Enter a natural number, n: "))
 
 #fixing values of x to 1 and defining factorial
 x=1
@@ -17,5 +18,5 @@ while(x<=n):
     x = x+1
 
 #output
-print(factorial)
-  
+print("\nThe factorial of number",n,"is ->",factorial)
+print()

@@ -4,7 +4,7 @@ Write a python program to perform the following operations using given list as i
 Given a heterogenous list, create separate lists for different types of data.
 Write a python program to achieve the same.
 '''
-
+print('\nCalculate Heterogeneous_lists.py\n')
 
 #defining the sample list
 list= [10,4,6,8,'ábc','xyz','a','h',5.4,4.6,11.777,"today is an amazing day"]
@@ -27,13 +27,9 @@ for L in list:
 
 
 #output
-        
-print(" ")
-print ("The sample list can be divided into the following lists, based on its type- ")
-print(" ")
+print ("\nThe sample list can be divided into the following lists, based on its type- \n")
         
 print ("Type-'integer':",list_1)
 print ("Type-'string':",list_2)
 print ("Type-'float':",list_3)
-        
-
+print()

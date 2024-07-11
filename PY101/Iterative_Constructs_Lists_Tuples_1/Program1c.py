@@ -1,10 +1,15 @@
 '''
 Problem Statement:
-Prints all prime numbers from 2 - n
+Prints all prime numbers from 2 - n.
+[Including number n]
 '''
+print('\nCalculate Prime_number.py\n')
 
 #getting input for natural  number(n).
-n= int(input("Enter a natural number,n:"))
+n= int(input("Enter a natural number, n: "))
+
+#printing output
+print("\nPrime numbers till numbet ",n, " are as follows: ")
 
 #fixing values ‘term’ and printing 2.
 term=2
@@ -28,4 +33,4 @@ while term<n:
     if is_prime:
             print(term, end=" ")    
 print()
-
+print()
