@@ -1,12 +1,13 @@
 '''
 Problem Statement:
-Given list of students, marks for phy,chem,maths and biology form a dictionary where key is SRN and values is dictionary containing PCMP marks of respective student.
+Given list of students, marks for physics, chemistry, maths, and biology form a dictionary where key is SRN and values is dictionary containing PCMB marks of respective student.
 srns = ["PECS001","PECS015","PECS065","PECS035","PECS038"]
 p_marks = [98,99,85,92,79]
 c_marks = [91,90,84,98,99]
 m_marks = [78,39,60,50,84]
 b_marks = [95,59,78,80,89]
 '''  
+print('Program to print a dictionary where the keys are SRN, and the values are the respective marks. ')
 
 #Giving 3 new input lists.
 
@@ -18,19 +19,27 @@ bio_marks = [95,59,78,80,89]
 
 #Make 2 new dictionaries.
 student_marks={}
-mark_det={}
-
 
 #Use 'for' loop, to get the desired output dictionary.
-for k in range(len(srns)):
-   mark_det['phy']= phy_marks[k] 
-   mark_det['chem']=chem_marks[k]
-   mark_det['math']=math_marks[k]
-   mark_det['bio']= bio_marks[k]
+for k in range(0,len(srns)):
+   mark_det={}
+
+   mark_det['Physics']= phy_marks[k] 
+   mark_det['Chemistry']=chem_marks[k]
+   mark_det['Mathematics']=math_marks[k]
+   mark_det['Biology']= bio_marks[k]
    
    #making desired dictionary
    student_marks[srns[k]]= mark_det
 
 
 #Print the output dictionary.
-print(student_marks)
+print("\n'Roll no.' | 'Marks' ")
+for key,value in student_marks.items():
+    print(key, ':- ')
+
+    for k,v in value.items():
+        print('\t   ',k, ': ',v)
+    print()
+
+print()
