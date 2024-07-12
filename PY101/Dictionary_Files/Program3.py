@@ -7,7 +7,9 @@ c_marks = [91,90,84,98,99]
 m_marks = [78,39,60,50,84]
 b_marks = [95,59,78,80,89]
 '''  
-print('Program to print a dictionary where the keys are SRN, and the values are the respective marks. ')
+print('\nCalculate PCMB_marks.py\n')
+
+print('Dictionary where the keys are SRN, and the values are the respective marks. ')
 
 #Giving 3 new input lists.
 

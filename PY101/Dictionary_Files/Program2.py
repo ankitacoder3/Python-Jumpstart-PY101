@@ -10,8 +10,9 @@ and perform the following operations:
   ii)  delete entry from phone book.
 
 '''  
+print('\nCalculate Phone_book.py\n')
 
-print('Program to construct dictionary phone_book with operations. ')
+print('Dictionary phone_book with operations. ')
 
 #make a new  dictionary containing a few names and required details, for the phone book.
 details=[("Rashma",8105731555,"rashma@gmail.com","bangalore"),("Saritha",9582161900,"saritha@gmail.com","Mangalore"),("Bharathi",9276895311,"bharathi@yahoo.com","Koimbatore"),  ("deepthi",8976885553,"deepthi@gmail.com","bangalore"),("kakoli",8816121598,"kakili@gmail.com","dispur")]
@@ -21,8 +22,11 @@ print("\n'KEY' : 'VALUE' ")
 for key,value in phone_book.items():
     print(key, ' : ',value)
 
+#output
+print("\nOutput:")
+
 #adding  a new value to dictionary and printing the final dictionary
-print("\n (i): adding  a new value to dictionary and printing the final dictionary\n ")
+print("\n (i): adding  a new value to dictionary and printing the final dictionary ")
 phone_book[len(phone_book)+1]=("Saanvi", 7878445362,"saanvi.33@gmail.com","Nagaland")
 print("\n'KEY' : 'VALUE' ")
 for key,value in phone_book.items():

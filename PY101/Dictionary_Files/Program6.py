@@ -5,8 +5,9 @@ Marks={'PECS001': {'phy': 79, 'chem': 90, 'mat': 84, 'Bio': 94}, 'PECS015': {'ph
     'PECS065': {'phy': 79, 'chem': 59, 'mat': 54, 'Bio': 88}, 'PECS035': {'phy': 70, 'chem': 90, 'mat': 84, 'Bio': 84}, 
     'PECS038': {'phy': 55, 'chem': 66, 'mat': 88, 'Bio': 81}}
 '''
+print('\nCalculate Total_marks_percentage.py\n')
 
-print('Program to print a dictionary where the keys are SRN, and the values are the respective total marks and percentages. ')
+print('Dictionary where the keys are SRN, and the values are the respective total marks and percentages. ')
 
 #Giving input dictionary.
 Marks={

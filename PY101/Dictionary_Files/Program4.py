@@ -4,8 +4,9 @@ a) Read movie data from mov1.csv file. The CSV file mov1.csv has three columns- 
     has year, column2 has rating, and column3 has movie name
 b) Write year of release and movie name from mov1.csv to a text file
 '''
+print('\nCalculate Read_csv_write_txt.py\n')
 
-print('Program to read movie data from mov1.csv file and write data to a text file.')
+print('Read movie data from mov1.csv file and write data to a text file.')
 
 #create 2 empty dictionary
 movie_det={}
@@ -47,10 +48,10 @@ for i in l1:
     count+=1 #increment count
 
 #Printing the READ details using the dictionary, as output for part(a).
-print("\n'Sl. No.' | ['Year', 'Ratings', 'Movie-name' ] \n \n ")
+print("\n'Sl. No.' | ['Year', 'Ratings', 'Movie-name' ] \n ")
 for key,value in movie_det.items():
     print(key, ' : ', value)
-print()
+print('\nRead ',len(movie_det)," records.\n")
 
 
 #part b
@@ -64,7 +65,6 @@ f1=open('mov.txt','w')
 # 2- to write the necessary values to the file f1
 for key,value in movie_det.items():
     det=value
-    print(det)      
     for k,v in det.items():
       if(k=='Year'):
          f1.write(v+' ')
@@ -79,4 +79,9 @@ F.close()
 f1=open('mov.txt')
 line=f1.read()
 line=line.strip()
-print("\nYear, Movie \n",line)
+line=line.split('\n')
+print("\nYear, Movie \n")
+for i in line:
+   print(i)
+print('\nRead ',len(line)," records.")
+print()
