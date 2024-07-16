@@ -1,7 +1,8 @@
 '''
 Problem Statement:
-A.  display given list of data as mac address. mac=['00','11','23','45','67','70',’ ‘]
-B.  send festival greetings to friends, all friends in the list                  frnd=['ram',' sita',' raj',' joy',' joe',' ']
+A.  display given list of data as mac address. { mac=['00','11','23','45','67','70'] }
+B.  send festival greetings to friends, all friends in the list. { frnd=['ram',' sita',' raj',' joy',' joe'] }
+
 C.  Given , Roll no’s as strings each separated by space, replace ROLL_NO_ in place of ROLL_ in first 3 roll no’s. Also find if user given roll no. is present or not.
 roll_no = "ROLL_01 ROLL_02 ROLL_03 ROLL_04 ROLL_05 ROLL_06 ROLL_07 ROLL_08 ROLL_09 ROLL_10"
 '''
@@ -10,28 +11,24 @@ print('\nCalculate List_join_replace.py\n')
 #"answer A"
 
 #list of values, given as input
-print()
-print('Answer (a)')
+print('PART A')
 mac=['00','11','23','45','67','70']
 print(f'Input is: {mac}')
 
 #use the 'join' function to make the mac addresses, and print it as output.
-print()
+print('\n Output (using join):')
 print(':'.join(mac))
 print()
-print()
-
 
 #"answer B"
 
 #list of names of friends, given as input
-print()
-print('Answer (b)')
+print('PART B')
 friend=[' ram',' sita',' raj',' joy',' joe','']
 print(f'Input is: {friend}')
 
 #use the 'join' function to make the greetings, and print it as output.
-print()
+print('\n Output (using join):')
 print(', Happy Festival! \n'.join(friend))
 print()
 
@@ -39,14 +36,15 @@ print()
 
 #list of roll numbers of students, given as input
 print()
-print('Answer (c)')
+print('PART C')
 roll_no = "ROLL_01 ROLL_02 ROLL_03 ROLL_04 ROLL_05 ROLL_06 ROLL_07 ROLL_08 ROLL_09 ROLL_10"
 print(f'Input is: {roll_no}')
 
 #replacing 'ROLL_' with 'ROLL_NO_', for firt three roll no's, and printing it as output.
-print()
+print('\n Output :')
+
 full_roll_no=roll_no.replace('ROLL_','ROLL_NO_',3)
-print ("After replacing 'ROLL_' with 'ROLL_NO_', for firt three roll no's :")
+print ("1- After replacing 'ROLL_' with 'ROLL_NO_', for firt three roll no's :")
 print (full_roll_no)
 
 
@@ -57,6 +55,7 @@ print (full_roll_no)
 print()
 
 n=0
+print ("2- Searching for upto three roll no's :-\n")
 while n<3:
     print('Enter \'-1\' to exit.')
     find=input("Enter ROLL NO. to be searched (in the format 'ROLL_xx'): ")
@@ -70,7 +69,7 @@ while n<3:
     if (f>=0 and find!="-1"):
         print(f"{find} is PRESENT. ")
     elif(f<0 or find=='-1'):
-        print('\n Ending search')
+        print('\nEnding search.\nThank you...')
         break
     else:
         print("ROLL NO. is NOT present or found.")

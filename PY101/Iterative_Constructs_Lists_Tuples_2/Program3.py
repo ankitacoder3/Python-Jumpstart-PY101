@@ -13,10 +13,9 @@ print('PART A :- ZIP LISTS \n')
 #2 Lists (one of captains and one of teams), given as input 
 captain_list=['Virat Kohli','MS Dhoni','Rohit Sharma']
 team_list=['RCB', 'CSK', 'MI']
-print("\n The input list for captains is:\n\t", captain_list)
-print("\n The input list for teams is:\n\t", team_list)
+print(" The input list for captains is:\n\t", captain_list)
+print(" The input list for teams is:\n\t", team_list)
 print()
-
 
 #using the zip function to match the captains to their teams 
 result=zip(captain_list,team_list)
@@ -40,6 +39,7 @@ result1=zip(*sample)
 result1=list(result1)
 
 #printing the output
-print(" \n Process:\n The list after unzipping the input list: \n ", result1)
-print(" \n \n Output/Result: \n  The list of only names:\n\t", result1[0])
+print(" Process:\n The list after unzipping the input list: \n ", result1)
+print(" \n Output/Result: \n  The list of only names:\n\t", result1[0])
+print()
 print()

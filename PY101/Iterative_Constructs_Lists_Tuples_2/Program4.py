@@ -16,8 +16,7 @@ print('PART A :- \n')
 
 #(string0) string, given as input 
 string0='mohanDas Karamchand gandhi'
-print("\n The input string is:\t", string0)
-print()
+print(" The input string is:\t", string0)
 
 #splitting the input string and getting a new list(string1)
 string1=string0.split(" ")
@@ -61,29 +60,28 @@ print('PART B :- \n')
 
 #(string0) string, given as input 
 string0="bad python bad teacher bad lecture"
-print("\n The input string is:\t", string0)
-print()
+print(" The input string is:\t", string0)
 
 #using replace function to get the following results, for (i) and (ii), and printing the output.
 
 #part i ans
 replace= string0.replace('bad','good')
-print("\n  Ans(i): Replacing all occurences of 'bad' with 'good' -\n\t", replace)
+print("\n  Ans(i): Replacing all occurences of 'bad' with 'good' -\n\t\t ", replace)
 
 #part ii ans
 replace= string0.replace('bad','good',1)
-print("\n  Ans(ii): Replacing first occurence of 'bad' with 'good' -\n\t", replace)
+print("\n  Ans(ii): Replacing first occurence of 'bad' with 'good' -\n\t\t ", replace)
 
 
 #using find function to get the following results, for (iii) and (iv), and printing the output.
 
 #part iii ans
 find= string0.find('bad')
-print("\n  Ans(iii): Finding the leftmost or first occurence of 'bad' is at -\n\t Index",find)
+print("\n  Ans(iii): Finding the leftmost or first occurence of 'bad' is at -\n\t\t Index",find)
 
 #part iv ans
 find= string0.find('bad',4,16)
-print("\n  Ans(iv): Finding the second occurence (from left) of 'bad' is at -\n\t Index",find)
+print("\n  Ans(iv): Finding the second occurence (from left) of 'bad' is at -\n\t\t Index",find)
 
 
 #using a combination of find function, replace function,slicing and concatenation, to get the following result for (v), and printing the output.
@@ -92,7 +90,8 @@ print("\n  Ans(iv): Finding the second occurence (from left) of 'bad' is at -\n\
 replace1= string0[find:].replace('bad','worst',1)
 replace2= replace[0:12] + replace1
 
-print("\n  Ans(v): 1- Replacing the second occurence (from left) from 'bad' to \n\t'worst', and printing the string from that point -\n\t\t",replace1)
-print("\n  Ans(v): 2- Replacing the second occurence (from left) from 'bad' to \n\t'worst', and printing the string from the beggining -\n\t\t",replace2)
+print("\n  Ans(v): 1- Replacing the second occurence (from left) from 'bad' to \n\t\t'worst', and printing the string from that point -\n\t\t",replace1)
+print("\n  Ans(v): 2- Replacing the second occurence (from left) from 'bad' to \n\t\t'worst', and printing the string from the beggining -\n\t\t",replace2)
 
+print()
 print()

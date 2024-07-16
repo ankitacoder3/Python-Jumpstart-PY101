@@ -8,20 +8,19 @@ print('\nCalculate String_split_print.py\n')
 
 #(string0) string, given as input 
 string0= "we love python very much"
-print("\n\n The input string is:\t", string0)
+print(" The input string is:\t", string0)
 print()
 
 #Splitting the input string and getting a new list(string1)
 string1= string0.split(' ')
-print(string1)
-
+print("   processing: ",string1)
+print()
 
 #"answer i"
 
 #printing statements
 print("\n Answer (i):")
-print("\n\n   Output/Result: Printing the first letter of each word at the end: \n \n \t \t", end=' ')
-
+print("\n  Output/Result: Printing the first letter of each word at the end: \n \n \t \t", end=' ')
 
 #Using a 'while' loop, 'length' function, slicing and concatenation, to print the first letter of each word at the end; and printing it, as output.
 i=0
@@ -36,22 +35,23 @@ while i<5:
     print(string4, end=' ')
 
     i+=1
-
+print()
 
 #"answer ii"
 
 #printing statements
-print("\n\n\n\n Answer (ii):")
-print("\n\n   Output/Result: Printing a 'p' after each letter : \n \n \t \t", end=' ')
+print("\n Answer (ii):")
+print("\n  Output/Result: Printing a 'p' after each letter : \n \n \t \t", end=' ')
 
-
-#Using a 'for' loop, 'join' function to print a 'p' after each letter; and printing it, as output.
+#Using a 'for' loop, 'join' function to print a 'p' after each letter;
+#  and printing it, as output.
 
 for l in string1:
     
     l='p'.join(l)
     print(l,end='')
     print('p',end=' ')
-    
+print()
+
 print()
 print()
