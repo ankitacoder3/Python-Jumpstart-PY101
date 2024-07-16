@@ -9,14 +9,13 @@ print('\nCalculate Formal_letter.py\n')
 
 #input for formal letter
 Letter = 'Respected sir,\n \n I am here by enlisting all the programming languages we teach:\n Problem solving using python\n Object oriented programming with C++\n Java and jee \n R programming \n  \n Thanking You, \n Team Programming Languages.'
-print('Input:\n',Letter)
+print('Input (without using loops):\n',Letter)
 
 #splitting the lines in the Letter
 Letter= Letter.split('\n')
 
 #using the for loop to print the output.
-print('\nOutput letter:')
+print('\nOutput letter (using loops):\n')
 for l in Letter:
-    if(l!='I'):
-        print(l.capitalize())
+    print(l)
 print()

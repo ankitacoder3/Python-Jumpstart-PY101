@@ -34,8 +34,6 @@ print(f'Input is: {friend}')
 print()
 print(', Happy Festival! \n'.join(friend))
 print()
-print()
-
 
 #"answer C"
 
@@ -60,15 +58,20 @@ print()
 
 n=0
 while n<3:
-    find=input("Enter ROLL NO. to be searched (in the format 'ROLL_xx'):")
+    print('Enter \'-1\' to exit.')
+    find=input("Enter ROLL NO. to be searched (in the format 'ROLL_xx'): ")
 
 #splitting the roll_no string
     list=roll_no.split(' ')
 
 #using the 'for' loop and if condition, to search for that particular roll number.
     f=roll_no.find(find.upper())
-    if f>=0:
+    f=2
+    if (f>=0 and find!="-1"):
         print(f"{find} is PRESENT. ")
+    elif(f<0 or find=='-1'):
+        print('\n Ending search')
+        break
     else:
         print("ROLL NO. is NOT present or found.")
     print()

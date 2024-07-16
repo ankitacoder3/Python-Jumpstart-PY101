@@ -4,6 +4,7 @@ String encoding s = "we love python very much”
 i)	the first letter of each word is printed at the end.
 ii)	In the second case, after each character, a p is printed.
 '''
+print('\nCalculate String_split_print.py\n')
 
 #(string0) string, given as input 
 string0= "we love python very much"
@@ -37,7 +38,6 @@ while i<5:
     i+=1
 
 
-
 #"answer ii"
 
 #printing statements
@@ -53,5 +53,5 @@ for l in string1:
     print(l,end='')
     print('p',end=' ')
     
-print('\n \n \n')
-
+print()
+print()
