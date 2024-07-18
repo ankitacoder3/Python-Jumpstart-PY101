@@ -4,6 +4,7 @@ dict
 io
 iterative1
 iterative2
+operators
 
 pending
 
