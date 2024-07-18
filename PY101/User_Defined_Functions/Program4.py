@@ -3,6 +3,7 @@ Problem Statement:
 Given a list of  strings, find the largest string,
 and display the largest string alongwith its length.
 '''
+print('\nCalculate Find_largest_string.py\n')
 
 #Defining all functions
 
@@ -22,27 +23,50 @@ def long(l):
 
 #Main Function
 
-# INSTRUCTIONS:  make sure either 'OPTION A LINE' or 'OPTION B LINE' is not commented, as per preference
+# INSTRUCTIONS
+print("   INSTRUCTIONS: \n\t Enter 'A' to use 'user-input' value for 'String' \n\t Enter 'B' to use 'hardcoded' value for 'String' \n")
 
-# OPTION A: Using 'user-input' value for 'String'
-#Getting input from user, for a string.
-String=input('\nEnter text : ')   # OPTION A LINE
+# Inputting the choice
+choice = input("   Enter Choice: ")
 
-# OPTION B: Using 'hard-coded' value for 'String'
-#String='Today its is going to rain heavily' # OPTION B LINE
+# flag:- to check if the 'Choice' input is correct
+flag = 0
 
-#Print given string
-print('\nSTRING given is: ',String)
+if( choice == 'A' ):
+    # OPTION A: Using 'user-input' value for 'String'
 
-#Converting the string to a list, by splitting it.
-L= String.split(' ')
-l=[]
-for i in L:
-    l.append(i)
+    # Getting input from user, for a string.
+    String = input('\n   Enter text: ')   
 
-print('\nLIST after splitting the string: ',l)
+    # changing flag value, as correct 'Choice' input is given
+    flag = 1 
 
-largest_str=long(l)
-largest_size=length(largest_str)
+elif( choice == 'B' ):
+    # OPTION B: Using 'hard-coded' value for 'String'
 
-print(f'\nResult: The largest string is \"{ largest_str}\" of length \"{largest_size}\" letters. \n')
+    String='Today its is going to rain heavily' 
+
+    # changing flag value, as correct 'Choice' input is given
+    flag = 1 
+
+else:
+    print("\n  Invalid Choice! Try again...\n")
+
+if ( flag == 1 ) :
+
+    #Print given string
+    print('\n INPUT: \n\t STRING given is: ',String)
+
+    #Converting the string to a list, by splitting it.
+    L= String.split(' ')
+    l=[]
+    for i in L:
+        l.append(i)
+
+    print('\n PROCESSING: \n\t LIST after splitting the string: ',l)
+
+    largest_str=long(l)
+    largest_size=length(largest_str)
+
+    print(f'\n RESULT: \n\tThe LARGEST string is \"{ largest_str}\" of length \"{largest_size}\" characters. \n')
+print()
