@@ -9,9 +9,9 @@ Program8.py	    Speed_time.py
 Program9.py	    Clear_RightMostBit.py
 Program10a.py	Extract_random_character.py
 Program10b.py	Students_in_class.py
-Program10c.py	Multiplication_of_2_random_numbers.py
-Program10d.py	Generate_random_float_number_in _range.py
-Program10e.py	Generate_random_int_number_in _range.py
+Program10c.py	Multiplication_of_2_random_numbers.py 
+Program10d.py	Generate_random_float_number_in_range.py
+Program10e.py	Generate_random_int_number_in_range.py
 Program10f.py	Generate_same_random_number_everytime.py
 Program10g.py	Generate_same_random_number_everytime_on_dice.py
 Program11a.py	Wind_chill_index.py
