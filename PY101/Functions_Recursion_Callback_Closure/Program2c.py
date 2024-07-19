@@ -2,6 +2,7 @@
 Problem Statement:
 Use recursion to raise a number to a given power n.
 '''
+print('\nCalculate Recursion_power_n.py\n')
 
 #Defining raised (n raised to p) function. 
 
@@ -13,9 +14,10 @@ def raised(n,p):
             
 
 #Getting the 2 inputs, number and power.
-number= int(input('Enter the number(n), that has to be raised :'))
-power= int(input('Enter the power(p), that the number has to be raised to :'))
+number= int(input('Enter the number(n), that has to be raised : '))
+power= int(input('Enter the power(p), that the number has to be raised to : '))
 
 #Printing the output.
-print(raised(number,power))
-
+print('\nResult: ')
+print("    n ^ p =\n   ",number,"^",power,"=",raised(number,power))
+print()
