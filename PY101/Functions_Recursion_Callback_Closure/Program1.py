@@ -25,13 +25,13 @@ def Sieve_eratosthenes(n):
 	# Print all prime numbers
 	for p in range(2, n+1):
 		if prime[p]:
-			print(p,end="\t")
+			print('   ',p,end="\t")
 
 #Getting input, for a number.
-number = int(input('\nEnter a number: '))
+number = int(input('\n  Enter a number: '))
 
 #Printing the output, by calling the function.
-print(f'\nPrime numbers smaller than or equal to \'{number}\' are:\n')
+print(f'\n  Prime numbers smaller than or equal to \'{number}\' are:\n')
 Sieve_eratosthenes(number)
 print()
 print()
