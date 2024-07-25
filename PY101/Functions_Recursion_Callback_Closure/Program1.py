@@ -3,6 +3,8 @@ Problem Statement:
 Using Functions generate prime numbers,
 using method of Sieve of eratosthenes.
 '''
+print('\nCalculate Sieve_of_eratosthenes.py\n')
+
 
 #Defining Sieve of eratosthenes function.
 
@@ -31,5 +33,7 @@ number = int(input('\nEnter a number: '))
 #Printing the output, by calling the function.
 print(f'\nPrime numbers smaller than or equal to \'{number}\' are:\n')
 Sieve_eratosthenes(number)
+print()
+print()
 
-print('\n \n ')
+print()

@@ -14,8 +14,10 @@ def Count(n):
 
 
 #Getting the input, a number.
-print('Enter a number \'n\', to be incremented by 5, \'n\' no. of times.\n')
-n=int(input('Enter the number, n: '))
+print('\nCalculating n+(5*n) expression ...\n ')
+
+print('  Enter a number \'n\', to be incremented by 5, \'n\' no. of times.\n')
+n=int(input('  Enter the number, n: '))
 print()
 val=n
 
@@ -23,7 +25,8 @@ val=n
 for i in range(n):
     c=Count(val) #c refers to Count
     val=c() #to get value in c, need to call c [c()]
-    print(f'After Increment No. -> {i+1}, value of number n: {val}')
+    print(f'\tAfter Increment No. -> {i+1}, value of number n: {val}')
 
-print('\nFinal Result:\n After',n,'increments to the number',n,',\n \t \t the result is -> ',val)
+print('\nFinal Result:\n\n\tAfter',n,'increments,\n \t  with the number 5 ,\n \t  to the number',n,',\n \t  the result is ->')
+print('\n\t\t\t n + ( 5 * n ) \n\t\t\t =',n,'+ ( 5 *',n,') \n\t\t\t =',val)
 print()
