@@ -1,20 +1,12 @@
-# Python-Jumpstart-PY101
-###
-###
-###
-
-## Summary:
-#### This repo contains Python codes for various operations, data types, etc.
-###
-
- <!--
  
 <a name="readme-top"></a>
-# Image-Processing-IMG-IMPACT
+# Python-Jumpstart-PY101
 
-In the project ```IMG-IMPACT```, several    ```Image Processing Techniques``` are used, to ````IMPACT THE IMAGES````.
+The repo ```Python-Jumpstart-PY101```, is a starter kit to learn ```PYTHON```.
+It contains varied types of solved problems. Ranging from very simple to complex problems, solutions and  codes.
+```PY101``` is beginner friendly, and gives step-by-step process and solutions, for all the problems stated. It is the *perfect guide* to learn the programming language, **Python**.
 
-This project is based on the ```Linear Algebra project```, which was part of the course ```UE20MA251```.
+The problems and codes in ```PY101``` are based on the ```Python Lab Courses```, which was part of the course ```UE20CS102```.
 
 <br>
 
@@ -32,18 +24,24 @@ This project is based on the ```Linear Algebra project```, which was part of the
 
 <a name="a1"></a>
 ## Introduction
-```IMG-IMPACT``` is a project on <i> **Impacting the Images** </i>, using various ```Image Processing Technologies and Techniques``` .
 
-These ```Techniques``` include various <i> **Filters** </i> like ```Median filter```, ```Gaussian filter```, ```Linear filter```, etc... 
+The repo ```Python-Jumpstart-PY101``` is a  <i> **PYTHON CODEBASE** </i>, and is the perfect starter kit to learn ```PYTHON```
 
-The other ```Technologies``` implemented here are ```Scaling```, ```Cropping```, ```Rotation```, etc... 
+The **Course** ```PY101``` is designed to be <i> **beginner-friendly** </i>, and gives a <i> **step-by-step guide** </i>, to **Solve various problems** .
+
+The problems solved in ```PY101``` range from <i> **simple** </i> to <i> **complex** </i>, aiding you to master the PYTHON language.
+
+Welcome to ```PY101```!!
+Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
+
+Find a detailed guide below on how to efficently use ```PY101```.
 
 </br>
 
 
 ### <b>Files :</b>
 
-  In the ```IMG-IMPACT Directory``` there are 4 directories:
+  In the ```PY101` Directory``` there are 7 directories:
   
   - 1- ```Images Directory```- contains all the Images used in the programs.
     
