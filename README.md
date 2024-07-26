@@ -378,6 +378,4 @@ Find a detailed guide below on how to efficently use ```PY101```.
   <p align="right"><a href="#readme-top">Back to TOP</a></p>
   </br>
 <a name="end"></a>
-Thank you for exploring the IMG-IMPACT project. Happy Image Editting, Filtering and Processing! 🍿🎬
-
--->
+Thank you for exploring the PY101 course. Happy coding with PYTHON! 
