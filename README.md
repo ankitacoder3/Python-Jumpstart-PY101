@@ -154,19 +154,15 @@ Find a detailed guide below on how to efficently use ```PY101```.
     
   * Language :
 
-    **Python**
+    None
 
 <br>
 
-  * Libraries :
+  * Installation :
 
+    Should have installed **Python**,
 
-    * OpenCV or cv2
-    * Pillow or PIL
-    * NumPy
-    * argparse
-    * matplotlib
-    * math
+    from the officail website - https://www.python.org/ 
 
 
 <br>
