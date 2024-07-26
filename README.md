@@ -27,17 +27,20 @@ The problems and codes in ```PY101``` are based on the ```Python Lab Courses```,
 
 The repo ```Python-Jumpstart-PY101``` is a  <i> **PYTHON CODEBASE** </i>, and is the perfect starter kit to learn ```PYTHON```.
 
+</br>
 
 The **Course** ```PY101``` is designed to be <i> **beginner-friendly** </i>, and gives a <i> **step-by-step guide** </i>, to **Solve various problems** .
 
 
 The problems solved in ```PY101``` range from <i> **simple** </i> to <i> **complex** </i>, aiding you to master the PYTHON language.
 
+</br>
 
 Welcome to ```PY101```!!
 
 Have fun solving the problems, and learning ```PYTHON``` in ```PY101``` !
 
+</br>
 
 Find a detailed guide below on how to efficently use ```PY101```.
 
