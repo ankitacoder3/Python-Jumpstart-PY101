@@ -3,8 +3,8 @@
 # Python-Jumpstart-PY101
 
 The repo ```Python-Jumpstart-PY101```, is a starter kit to learn ```PYTHON```.
-It contains varied types of solved problems. Ranging from very simple to complex problems, solutions and  codes.
-```PY101``` is beginner friendly, and gives step-by-step process and solutions, for all the problems stated. It is the *perfect guide* to learn the programming language, **Python**.
+It contains a variety of solved problems, ranging from very simple to complex problems, with solutions and  codes.
+```PY101``` is beginner-friendly, and provides a step-by-step process and solutions for all the problems stated. It is the *perfect guide* to learn the programming language, **Python**.
 
 The problems and codes in ```PY101``` are based on the ```Python Lab Courses```, which was part of the course ```UE20CS102```.
 
@@ -13,12 +13,12 @@ The problems and codes in ```PY101``` are based on the ```Python Lab Courses```,
 <details open>
 
   <summary style="color: red;">Table of Contents</summary>
-<li> <a href="#a1">Introduction</a></li>
+<li> <a href="#a1"> Introduction</a></li>
 <li> <a href="#a2"> Prerequisites and Techstack</a></li>
 <li> <a href="#a3"> Steps for Execution </a></li>
-<li>  <a href="#a5">Screenshots</a></li>
-<li>  <a href="#a4">Usage</a></li>
-<a href="#end"><u><i>Skip to END...</i></u></a>
+<li>  <a href="#a5"> Features</a></li>
+<li>  <a href="#a4"> Usage</a></li>
+<a href="#end"><u><i> Skip to END...</i></u></a>
 </details>
 </br>
 
@@ -27,20 +27,12 @@ The problems and codes in ```PY101``` are based on the ```Python Lab Courses```,
 
 The repo ```Python-Jumpstart-PY101``` is a  <i> **PYTHON CODEBASE** </i>, and is the perfect starter kit to learn ```PYTHON```.
 
-</br>
-
-The **Course** ```PY101``` is designed to be <i> **beginner-friendly** </i>, and gives a <i> **step-by-step guide** </i>, to **Solve various problems** .
-
+The **Course** ```PY101``` is designed to be <i> **beginner-friendly** </i>, and provides a <i> **step-by-step guide** </i>, to **Solve various problems** .
 
 The problems solved in ```PY101``` range from <i> **simple** </i> to <i> **complex** </i>, aiding you to master the PYTHON language.
 
-</br>
-
 Welcome to ```PY101```!!
-
-Have fun solving the problems, and learning ```PYTHON``` in ```PY101``` !
-
-</br>
+Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
 Find a detailed guide below on how to efficently use ```PY101```.
 
@@ -49,97 +41,73 @@ Find a detailed guide below on how to efficently use ```PY101```.
 
 ### <b>Files :</b>
 
-  In the ```'PY101' Directory``` there are 7 directories:
+  In the ````PY101` Directory``` there are several directories:
   
-  - 1- ```Images Directory```- contains all the Images used in the programs.
+ - 1- ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
     
-  - 2- ```Individual_Filters&Techniques Directory```- contains the techniques and filters implemented separately.
+  - 2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
     
-  - 3- ```All_Filters_Combined Directory```- contains one program for the techniques and filters combined.
+  - 3- ```Input_Output_Arithmetic_Operations``` - contains problems, solutions and Python codes related to input-output and arithmetic operations.
     
-  - 4- ```Extra_Contents Directory```- contains extra information about the techniques and filters used.
+  - 4- ```Iterative_Constructs_Lists_Tuples_1``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 1).
+  
+  - 5- ```Iterative_Constructs_Lists_Tuples_2``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 2).
+  
+  - 6- ```User_Defined_Functions``` - contains problems, solutions and Python codes related to user-defined functions.
+
+  - 7- ```User_Input_Expression_Library_Functions``` - contains problems, solutions and Python codes related to user input in arithmetic expressions, and library functions. 
 
 </br>
 
+#
 ### <b>Repository Structure :</b>
 
 <details>
-  <summary color= blue ><u><b><i>IMG-IMPACT repo structure</i></b> click...</u></summary>
+  <summary color= blue ><u><b><i>PY101 repo structure</i></b> click...</u></summary>
 
-  Below is the structure of the ```IMG-IMPACT``` project repository
+  Below is the structure of the ```PY101``` project repository
   
   ```plaintext
-    Image-Processing-IMG-IMPACT/
+    Python-Jumpstart-PY101/
     │   
-    ├── IMG-IMPACT/           # Project Folder
+    ├── PY101/                              # Code Repository Folder
     │   │              
-    │   ├── All_Filters_Combined/              # Folder3
-    │   │    └── IMG-IMPACT.py
+    │   ├── Dictionary_Files/                  
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
     │   │     
-    │   ├── Extra_Contents/                    # Folder4
-    │   │    ├── IMG-IMPACT_Slides.pdf
-    │   │    └── IMG-IMPACT_Information.pdf
+    │   ├── Functions_Recursion_Callback_Closure/                
+    │   │    ├── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
     │   │ 
-    │   ├── Images/                            # Folder1
-    │   │    ├── 1_2_rover.jpg
-    │   │    ├── 3_4_turtle.jpg
-    │   │    ├── 4_CroppedImage.jpg
-    │   │    ├── 5_desktop.jpg
-    │   │    ├── 6_scenary.jpg
-    │   │    ├── 7_8_emoji.png
-    │   │    ├── 9_person.png
-    │   │    ├── 10_pig.jpg
-    │   │    ├── 11_apple.jpg
-    │   │    ├── <no.>_new_<any name>.jpg      
-    │   │          # These files are the resultant images after running the files, present in the 'Individual_Filters_Techniques' Folder.
-    │   │    ├── <no.>_fnew_<any name>.jpg      
-    │   │          # These files are the resultant images after running the file, present in the 'All_Filters_Combined' Folder.
-    │   │    └── IMG-IMPACT.png    #logo
+    │   ├── Input_Output_Arithmetic_Operations/                
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
     │   │ 
-    │   ├── Individual_Filters_Techniques/     # Folder2
-    │   │    ├── 1_ColourFilter.py
-    │   │    ├── 2_GrayScale.py
-    │   │    ├── 3_ImageReconstruction.py
-    │   │    ├── 4_ImageCropping.py
-    │   │    ├── 5_LinearFilter.py
-    │   │    ├── 6_ImageResizing.py
-    │   │    ├── 7_ImageRotation.py
-    │   │    ├── 8_GaussianFilter.py
-    │   │    ├── 9_MedianFilter.py
-    │   │    ├── 10_ImageScaling.py
-    │   │    └── 11_ImageShearing.py
+    │   ├── Iterative_Constructs_Lists_Tuples_1/                
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
     │   │ 
-    │   └── IMG-IMPACT.png   # Project Logo
+    │   ├── Iterative_Constructs_Lists_Tuples_2/                
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   ├── User_Defined_Functions/               
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   ├── User_Input_Expression_Library_Functions/                 
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   └── LICENSE.txt                     # License file
     │   
-    └─── README.md           # Repository README
+    └─── README.md                          # Repository README
     
   ```
 
 </details>
 </br>
-
-
-
-### <b>Underlying concepts / theory :</b>
-
-  1.  **Inclusion of Image Processing Techniques**
-     
-      The project ```IMG-IMPACT``` involves the implementation of ```Image Processing Techniques```.
-
-  2.  **Manipulation of Images and Extraction of Insights**
-
-      Image processing entails the ```manipulation of images```to extract ```useful insights``` from them.
-
-  3.  **Representation of Images as Grids of Pixels**
-
-      Images can be represented as a ```grid of n x n small pieces```, which are called ```pixels```.
-
-  4.  **Numerical Representation of Image Pixels**
- 
-      If we can ```assign numbers to each colour```, then, the grid of pixels can be represented as a ```numerical matrix```.
-    
- ###
-###
 
 ###
 ###
@@ -148,6 +116,9 @@ Find a detailed guide below on how to efficently use ```PY101```.
   </br>
   
 <a name="a2"></a>
+
+#DOUBT
+
 ## Prerequisites and Techstack
 
 <br>
@@ -158,45 +129,23 @@ Find a detailed guide below on how to efficently use ```PY101```.
 
 <br>
 
-  * Installation :
+  * Libraries :
 
-    Should have installed **Python**,
+    Standard or basic libraries. These libraries are by default present in the installed python
 
-    from the officail website - https://www.python.org/ 
+    * math
+    * random
 
 
 <br>
 
-  * Concepts :
-    <details>
-    <summary color= blue><u><b><i style="color: blue;">Linear transformation, SVD, Fourier transformations</i></b> (click for more details...)</u></summary>
-      
-    <p style="fontcolor: purple;">
-      
-      * **Linear transformation** -
+  * Tools :
 
-        Linear transformations are mathematical operations that maintain the fundamental properties of vector spaces.
-        They are often represented using matrices and are essential in geometry, and transformations in computer graphics.
-        They provide a structured way to describe and manipulate complex relationships between vectors.
-        
-      * **SVD**-
-   
-        Singular Value Decomposition, or SVD, is a powerful matrix factorization technique that breaks down a matrix into three simpler components: U, Σ, and V.
-        Here, U and V are orthogonal matrices, and Σ is a diagonal matrix containing singular values.
-        SVD is employed in image compression, as it uncovers hidden patterns and relationships in data
-        
-      * **Fourier transformations** -
-   
-        Fourier transformations are mathematical methods used to represent functions or signals in the frequency domain.
-        The Fourier transform allows us to express complex signals as combinations of simpler sinusoidal components, revealing their frequency and amplitude characteristics.
-        This is particularly useful for analyzing and processing signals in fields of image analysis, and data compression.
-
-</p>
-  </details>
-
+    Have python installed 
+<br>
   <p align="right"><a href="#readme-top">Back to TOP</a></p>
   </br>
-  
+
   
 
 <a name="a3"></a> 
@@ -204,55 +153,34 @@ Find a detailed guide below on how to efficently use ```PY101```.
 
 <br>
 
-  1. Clone the ```'Image-Processing-IMG-IMPACT'``` github repository.
+  1. Clone the ```'Python-Jumpstart-PY101''``` github repository.
      ```sh
-     git clone https://github.com/ankitacoder3/Image-Processing-IMG-IMPACT.git
+     git clone https://github.com/ankitacoder3/Python-Jumpstart-PY101.git
       ```
      <br>
      
- 2. Navigate to the ```'IMG-IMPACT' Directory``` in that.
+ 2. Navigate to the ```'PY101' Directory``` in that.
     ```sh
-    cd Image-Processing--IMG-IMPACT
-    cd IMG-IMPACT
+    cd Python-Jumpstart-PY101
+    cd PY101
     ```
   <br>
 
-  3. Navigate to ```ANY of the Directories``` and ```execute the respective files``` present in that directory.
-
-
+  3. Navigate to ```ANY of the Directories``` and ```execute the respective files``` present in that directory, by following the below ```given steps```. 
 
       <br>
 
      
       i.  ***Navigation*** :
           <br><br>
-           a. Navigate to  ```'Individual_Filters_Techniques' Directory``` to execute techniques and filters ```separately```.
+          Navigate to the respective directory.
+          <br>
+          ( For example: Navigate to the **'Dictionary_Files' Directory**.)
         ```sh
-        cd Individual_Filters_Techniques
+        cd Dictionary_Files
         ```
       
       <br>
-
-     b. Navigate to  ```'All_Filters_Combined' Directory``` to execute techniques and filters ```combined```.
-      ```sh
-      cd All_Filters_Combined
-      ```
-      
-      <br>
-      
-      c. Navigate to  ```'Extra_Contents' Directory``` to find ```extra information``` about the filters and techniques.
-      ```sh
-      cd Extra_Contents
-      ```
-      
-      <br>
-           
-     d. Navigate to  ```'Images' Directory``` to ```edit``` the images used.
-      ```sh
-      cd Images
-      ```
-      
-       <p align="right"><a href="#readme-top">Back to TOP</a></p> <br>
       
      ii.  ***Execution*** :
 
@@ -260,122 +188,82 @@ Find a detailed guide below on how to efficently use ```PY101```.
      
      <br>
      
-     a. To execute any file from command prompt, type
+     a. * To execute any file from Python IDLE,
         ```sh
-        python <filename>
+        Open the python file <filename> in the IDLE and Run the file
+        ```
+        <br>
+        * ( For example: To execute **'Program1,py' File**.)
+        ```sh
+        Open the **'Program1.py' File** in IDLE and Run the file
         ```
 
-        Then ```follow the instructions```, which appear on ```command prompt```.
+        * Then ```follow the instructions```, which appear on ```IDLE prompt```.
       
       <br>
 
-     b. For any file from  ```'Individual_Filters_Techniques' Directory```, say ```1_ColourFilter.py```, type
-      ```sh
-      python 1_ColourFilter.py
-      ```
+     b. * To execute any file from command prompt, type
+        ```sh
+        python <filename> <arguments (if any)>
+        ```
+                  <br>
+        * ( For example: To execute **'Program1.py' File**.)
+        ```sh
+        python "Program1.py"
+        ```
 
-      Then ```follow the instructions```, which appear on ```command prompt```.
-      
-      <br>
-      
-      c. For any file from  ```'All_Filters_Combined' Directory```, say ```IMG-IMPACT.py```, type
-      ```sh
-      python IMG-IMPACT.py
-      ```
+        * Then ```follow the instructions```, which appear on ```command prompt```.
+  <br>
+  
+  <p align="right"><a href="#readme-top">Back to TOP</a></p>
+  </br>
+   </br>
 
-      Then ```follow the instructions```, which appear on ```command prompt```.
-      
-      <br>
-    
+ <a name="a5"></a> 
+
+  ## Features
+
+  <br>
+
+  1.  **Problem Solving with Python**
      
+      The course ```PY101``` involves solving various problems using ```Python```.
 
-     <br>
-    
-  Note- For some filters and techniques information may not be complete or it may not exist in the'Extra_Contents' Directory.
-  
-  
-  
-  <p align="right"><a href="#readme-top">Back to TOP</a></p>
-  </br>
-   </br>
+  2.  **Step-by-Step Solutions**
 
-   <a name="a5"></a> 
-## Screenshots
+      Each problem comes with a detailed, step-by-step solution to help you understand the process.
 
-<br>
+  3.  **Variety of Problems**
 
+      Problems range from simple to complex, covering various topics and concepts in Python.
 
-  * All images before and ***after using IMG-IMPACT***
-    
-  ![image](https://github.com/ankitacoder3/Image-Processing--IMG-IMPACT/assets/73939061/1f99828b-e6bb-4c3e-8260-37a794cfb734)
+  4.  **Practical Applications**
+ 
+      The problems are designed to be practical and relevant, helping you apply Python concepts in real-world scenarios.
+  <br>
 
-
-<br>
-
-
-  * Select ***any filter or technique***  of your choice
-
-  ![image](https://github.com/ankitacoder3/Image-Processing--IMG-IMPACT/assets/73939061/f0afd5ed-9aba-4be3-9232-d46eea54ac8d)
-
-<br>
-<p align="right"><a href="#readme-top">Back to TOP</a></p>
-
-  * Select ***any image*** of your choice
-
-  ![image](https://github.com/ankitacoder3/Image-Processing--IMG-IMPACT/assets/73939061/014f3e57-1455-4f71-85d9-f792d1992c17)
-
-<br>
-
-  * Choose if you ***want to save editted images*** or not
-
-  ![image](https://github.com/ankitacoder3/Image-Processing--IMG-IMPACT/assets/73939061/d865cec1-ad34-4e31-99d5-f6e505e9e7eb)
-
-
-<br>
-
-  * Choose if you ***want to name the filtered images***
-
-  ![image](https://github.com/ankitacoder3/Image-Processing--IMG-IMPACT/assets/73939061/c15ab7de-4d19-4b15-bbe6-299657546903)
-
-
-  * & Much More...
-
-
-  <p align="right"><a href="#readme-top">Back to TOP</a></p>
-  </br>
-   </br>
 
 <a name="a4"></a>
 ## Usage
 
 <br>
 
-* IMG-IMPACT application can ***transform the pictures***, given as input, into ***different variations*** of the same picture.
+* The course ***PY101*** can serve as a comprehensive ***guide for learning Python***.
 
+* The course ***PY101*** can be used as a ***tool to strengthen*** your ***Python programming knowledge***.
 
-* IMG-IMPACT application has ***many default images*** in the 'Images' directory. The user can ***select any image***.
+* It includes various example problems and solutions that can be used to ***understand different Python concepts***.
 
-  
-* IMG-IMPACT application has ***many filters*** like linear filter, median filter etc. The user can ***select any filter***.
+* It can be used as a ***reference for solving*** common programming problems ***in Python***.
 
-  
-* IMG-IMPACT application also has ***many operations and methods*** such as rotating, cropping the image, etc. The user can ***select any method***.
-
-  
-* IMG-IMPACT can be used to ***create new images***, from the old images.
-
-  
-* Finally, IMG-IMPACT can be used to save the ***new  created, editted and filtered images***, with ***default image names or user defined names***, as per the ***user's choice***.
-
-* This project could also be used as a `project` for `Linear Algebra courses`, like `UE20MA251` or ue20ma251.
+* The codes in `PY101` could also be used as a `Python Lab Courses`, like `UE20CS102` or ue20cs102.
 
       
 * Other Examples or Other Usage:
-    * Use IMG-IMPACT to batch process a series of images with a specific filter.
-    * Employ IMG-IMPACT in a data preprocessing pipeline for machine learning models that require image data.
-    * Utilize IMG-IMPACT for educational purposes to demonstrate the effects of different image processing techniques.
+    * It is particularly useful for courses that require practical problem-solving skills in Python, such as any introductory programming course.
+    * The repository's structure makes it easy to navigate through different topics and find specific solutions.
 
   <p align="right"><a href="#readme-top">Back to TOP</a></p>
   </br>
 <a name="end"></a>
-Thank you for exploring the PY101 course. Happy coding with PYTHON! 
+Thank you for exploring the PY101 course. Happy Coding and learning Python! 
