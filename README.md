@@ -12,13 +12,14 @@ The problems and codes in ```PY101``` are based on the ```Python Lab Courses```,
 
 <details open>
 
-  <summary style="color: red;">Table of Contents</summary>
-<li> <a href="#a1"> Introduction</a></li>
-<li> <a href="#a2"> Prerequisites and Techstack</a></li>
-<li> <a href="#a3"> Steps for Execution </a></li>
-<li>  <a href="#a5"> Features</a></li>
-<li>  <a href="#a4"> Usage</a></li>
-<a href="#end"><u><i> Skip to END...</i></u></a>
+  <summary>Table of Contents</summary>
+    <li> <a href="#a1">Introduction</a></li>
+    <li> <a href="#a2">Prerequisites, Techstack and Setup</a></li>
+    <li> <a href="#a3">Steps for Execution </a></li>
+    <li>  <a href="#a5">Features</a></li>
+    <li>  <a href="#a4">Usage</a></li>
+  <a href="#end"><u><i>Skip to END...</i></u></a>
+  
 </details>
 </br>
 
@@ -116,37 +117,46 @@ Find a detailed guide below on how to efficently use ```PY101```.
   </br>
   
 <a name="a2"></a>
-
-#DOUBT
-
-## Prerequisites and Techstack
-
-<br>
-    
-  * Language :
-
-    None
+## Prerequisites, Techstack and Setup
 
 <br>
 
-  * Libraries :
-
-    Standard or basic libraries. These libraries are by default present in the installed python
-
-    * math
-    * random
-
+### Language:
+* Basic understanding of programming concepts is helpful but not mandatory.
 
 <br>
 
-  * Tools :
+### Libraries:
+* Standard Python libraries, which are included with the default Python installation:
+  * math
+  * random
 
-    Have python installed 
 <br>
-  <p align="right"><a href="#readme-top">Back to TOP</a></p>
-  </br>
 
-  
+### Tools:
+* Python (version 3.x) installed on your machine
+  * You can download the latest version from the [official Python website](https://www.python.org/).
+* A code editor or IDE for writing and running Python code
+  * Recommended options include [PyCharm](https://www.jetbrains.com/pycharm/), [VS Code](https://code.visualstudio.com/), or [Jupyter Notebook](https://jupyter.org/).
+* Basic knowledge of how to use the command line or terminal
+  * Familiarity with basic commands for navigating directories and running scripts
+
+<br>
+
+### Setup:
+* Ensure your Python environment is properly set up by verifying the installation and checking the version:
+  ```sh
+  python --version
+  ```
+* Install any additional tools or packages if needed using `pip`:
+  ```sh
+  pip install <package_name>
+  ```
+
+<br>
+
+<p align="right"><a href="#readme-top">Back to TOP</a></p>
+</br>
 
 <a name="a3"></a> 
 ## Steps for Execution
@@ -220,7 +230,6 @@ Find a detailed guide below on how to efficently use ```PY101```.
    </br>
 
  <a name="a5"></a> 
-
   ## Features
 
   <br>
