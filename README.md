@@ -164,8 +164,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
           <br>
           Navigate to the respective directory.
           <br>
-          For example: Navigate to the **'Dictionary_Files' Directory**.
-          
+          For example: Navigate to the **'Dictionary_Files' Directory**.x
         ```sh
         cd Dictionary_Files
         ```
@@ -177,13 +176,12 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
      
       a. ***Python IDLE*** 
        * To execute any file from Python IDLE,
-        <br>Open the ```python file <filename>``` in the **IDLE**.
+        <br>open the ```python file <filename>``` in the ```IDLE```.
         
        * **RUN** it, by clicking on ```RUN``` at the top bar, then clicking on ```RUN MODULE```.
         
        * For example: To execute **'Program1.py' File**.
-        <br>
-        Open the ```**'Program1.py' File**``` in ```IDLE``` and ```Run``` the file.
+        <br>Open the ```**'Program1.py' File**``` in ```IDLE``` and ```Run``` the file.
 
        * Then ```follow the instructions```, which appear on ```IDLE prompt```.
       <br>
