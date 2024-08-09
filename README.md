@@ -44,11 +44,11 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
   In the ```'PY101' Directory``` there are several directories:
   
-    1- ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
+  1- ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
     
     2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
     
-  - 3- ```Input_Output_Arithmetic_Operations``` - contains problems, solutions and Python codes related to input-output and arithmetic operations.
+  3- ```Input_Output_Arithmetic_Operations``` - contains problems, solutions and Python codes related to input-output and arithmetic operations.
     
   - 4- ```Iterative_Constructs_Lists_Tuples_1``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 1).
   
