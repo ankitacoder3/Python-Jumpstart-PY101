@@ -40,7 +40,7 @@ Welcome to ```PY101```!!
 
 Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
-
+</br>
 
 ### <b>Files :</b>
 
@@ -60,7 +60,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
   7- ```User_Input_Expression_Library_Functions``` - contains problems, solutions and Python codes related to user input in arithmetic expressions, and library functions. 
 
-
+</br>
 
 ### <b>Repository Structure :</b>
 
@@ -144,15 +144,12 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   pip install <package_name>
   ```
 
-<br>
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
 </br>
 
 <a name="a3"></a> 
 
 ## Steps for Execution
-
-<br>
 
   1. Clone the ```'Python-Jumpstart-PY101''``` github repository.
      ```sh
@@ -215,7 +212,6 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
         * Then ```follow the instructions```, which appear on ```command prompt```.
 
-  <br>
   <p align="right"><a href="#readme-top">Back to TOP</a></p>
   </br>
 
@@ -239,7 +235,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
  
       The problems are designed to be practical and relevant, helping you apply Python concepts in real-world scenarios.
 
-<br>
+
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
 </br>
 
@@ -260,7 +256,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 * Other Examples or Other Usage:
     * It is particularly useful for courses that require practical problem-solving skills in Python, such as any introductory programming course.
     * The repository's structure makes it easy to navigate through different topics and find specific solutions.
-<br>
+
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
 </br>
 
