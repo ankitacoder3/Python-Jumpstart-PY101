@@ -1,5 +1,6 @@
  
 <a name="readme-top"></a>
+
 # Python-Jumpstart-PY101
 
 The repo ```Python-Jumpstart-PY101```, is a starter kit to learn ```PYTHON```.
@@ -24,6 +25,7 @@ The problems and codes in ```PY101``` are based on the ```Python Lab Courses```,
 </br>
 
 <a name="a1"></a>
+
 ## Introduction
 
 The repo ```Python-Jumpstart-PY101``` is a  <i> **PYTHON CODEBASE** </i>, and is the perfect **starter kit** to learn ```PYTHON```.
@@ -59,7 +61,6 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
   7- ```User_Input_Expression_Library_Functions``` - contains problems, solutions and Python codes related to user input in arithmetic expressions, and library functions. 
 
-</br>
 
 ### <b>Repository Structure :</b>
 
@@ -108,11 +109,10 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   ```
 
 </details>
-</br>
 
-###
-  <p align="right"><a href="#readme-top">Back to TOP</a></p>
-  </br>
+<br>
+<p align="right"><a href="#readme-top">Back to TOP</a></p>
+</br>
   
 <a name="a2"></a>
 ## Prerequisites, Techstack and Setup
@@ -127,17 +127,14 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   * math
   * random
 
-<br>
-
 ### Tools:
-* Python (version 3.x) installed on your machine
+  * Python (version 3.x) installed on your machine
   * You can download the latest version from the [official Python website](https://www.python.org/).
-* A code editor or IDE for writing and running Python code
-  * Recommended options include [PyCharm](https://www.jetbrains.com/pycharm/), [VS Code](https://code.visualstudio.com/), or [Jupyter Notebook](https://jupyter.org/).
-* Basic knowledge of how to use the command line or terminal
+  * A code editor or IDE for writing and running Python code
+  * Recommended options include [PyCharm](https://www.jetbrains.com/pycharm/), [VS Code](https://code.visualstudio.com/),  or [Jupyter Notebook](https://jupyter.org/).
+  * Basic knowledge of how to use the command line or terminal
   * Familiarity with basic commands for navigating directories and running scripts
 
-<br>
 
 ### Setup:
 * Ensure your Python environment is properly set up by verifying the installation and checking the version:
@@ -150,11 +147,11 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   ```
 
 <br>
-
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
 </br>
 
 <a name="a3"></a> 
+
 ## Steps for Execution
 
 <br>
