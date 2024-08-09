@@ -166,9 +166,9 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
           <br>
           For example: Navigate to the **'Dictionary_Files' Directory**.
           
-          ```sh
-          cd Dictionary_Files
-          ```
+        ```sh
+        cd Dictionary_Files
+        ```
       
       ii. ***Execution*** :
           <br>
