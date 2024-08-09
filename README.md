@@ -177,9 +177,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
      
       a. ***Python IDLE*** 
        * To execute any file from Python IDLE,
-        <br>
-        
-        Open the ```python file <filename>``` in the **IDLE**.
+        <br>Open the ```python file <filename>``` in the **IDLE**.
         
        * **RUN** it, by clicking on ```RUN``` at the top bar, then clicking on ```RUN MODULE```.
         
