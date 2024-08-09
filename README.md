@@ -196,14 +196,15 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
         ```
      
       * For example: To execute **'Program1.py' File**,
+        <br>
         <br>navigate to the ```./Program1.py``` *Folder* path in the ```command prompt```.
-        <bt><br>
+        <bt>
         <br>then type
         ```sh
         python "Program1.py"
         ```
 
-        * Then ```follow the instructions```, which appear on ```command prompt```.
+      * Then ```follow the instructions```, which appear on ```command prompt```.
   
   <br>
   <p align="right"><a href="#readme-top">Back to TOP</a></p>
