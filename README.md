@@ -158,7 +158,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
     ```
 
   3. Navigate to ```ANY of the Directories``` and ```execute the respective files``` present in that directory, by following the below ```given steps```. 
-      ``````
+    
      
       i. ***Navigation*** :
           <br>
