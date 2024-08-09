@@ -180,18 +180,25 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
         
        * **RUN** it, by clicking on ```RUN``` at the top bar, then clicking on ```RUN MODULE```.
         
-       * For example: To execute **'Program1.py' File**.
-        <br>Open the ```**'Program1.py' File**``` in ```IDLE``` and ```Run``` the file.
+       * For example: To execute **'Program1.py' File**,
+        <br>open the ```**'Program1.py' File**``` in ```IDLE``` and ```Run``` the file.
 
        * Then ```follow the instructions```, which appear on ```IDLE prompt```.
       <br>
 
-     b. * To execute any file from command prompt, type
+     b. ***Command Prompt*** 
+      * To execute any file from command prompt, 
+        <br>navigate to the folder that contains the ```python file <filename>```, in the ```command prompt```.
+      
+      * Type the following command in command prompt
         ```sh
         python <filename> <arguments (if any)>
         ```
-                  <br>
-        * ( For example: To execute **'Program1.py' File**.)
+     
+      * For example: To execute **'Program1.py' File**,
+        <br>navigate to the ```./Program1.py``` *Folder* path in the ```command prompt```.
+        <bt><br>
+        <br>then type
         ```sh
         python "Program1.py"
         ```
