@@ -196,9 +196,8 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
         ```
      
       * For example: To execute **'Program1.py' File**,
-        <br>
         <br>navigate to the ```./Program1.py``` *Folder* path in the ```command prompt```.
-        <bt>
+        <br>
         <br>then type
         ```sh
         python "Program1.py"
@@ -254,6 +253,6 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
 
 <a name="end"></a>
-Thank you for exploring the PY101 course. Happy Coding and learning Python! 
+Thank you for exploring the PY101 course. Happy Coding and learning Python! ![alt text](image.png) ![alt text](image-1.png)
 
 ###
