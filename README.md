@@ -146,7 +146,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
 ## Steps for Execution
 
-  1. Clone the ```'Python-Jumpstart-PY101''``` github repository.
+  1. Clone the ```'Python-Jumpstart-PY101'``` github repository.
      ```sh
      git clone https://github.com/ankitacoder3/Python-Jumpstart-PY101.git
       ```
@@ -158,8 +158,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
     ```
 
   3. Navigate to ```ANY of the Directories``` and ```execute the respective files``` present in that directory, by following the below ```given steps```. 
-      ```sh
-      ```
+      ``````
      
       i. ***Navigation*** :
           <br>
@@ -167,29 +166,27 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
           <br>
           ( For example: Navigate to the **'Dictionary_Files' Directory**.)
           <br>
-            ```sh
-            cd Dictionary_Files
-            ```
+          ```sh
+          cd Dictionary_Files
+          ```
       
       ii. ***Execution*** :
           <br>
           By opening ```any file``` in ```python idle``` or ```command prompt```, and running it.
-     
-     <br>
+          <br>
      
       a. ***Python IDLE*** 
        * To execute any file from Python IDLE,
-        ```sh
-        Open the python file <filename> in the IDLE and Run the file
-        ```
         <br>
-        * ( For example: To execute **'Program1,py' File**.)
-        ```sh
-        Open the **'Program1.py' File** in IDLE and Run the file
-        ```
+        Open the ```python file <filename>``` in the **IDLE**.
+        
+       * **RUN** it, by clicking on ```RUN``` at the top bar, then clicking on ```RUN MODULE```.
+        
+       * For example: To execute **'Program1.py' File**.
+        <br>
+        Open the ```**'Program1.py' File**``` in ```IDLE``` and ```Run``` the file.
 
-        * Then ```follow the instructions```, which appear on ```IDLE prompt```.
-      
+       * Then ```follow the instructions```, which appear on ```IDLE prompt```.
       <br>
 
      b. * To execute any file from command prompt, type
