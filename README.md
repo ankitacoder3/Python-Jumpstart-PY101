@@ -32,6 +32,7 @@ The **course** ```PY101``` is designed to be <i> **beginner-friendly** </i>, and
 
 The problems solved in ```PY101``` range from <i> **simple** </i> to <i> **complex** </i>, aiding you to master the PYTHON language.
 
+</br>
 
 Welcome to ```PY101```!!
 
@@ -46,21 +47,20 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   
   1- ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
     
-    2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
+  2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
     
   3- ```Input_Output_Arithmetic_Operations``` - contains problems, solutions and Python codes related to input-output and arithmetic operations.
     
-  - 4- ```Iterative_Constructs_Lists_Tuples_1``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 1).
+  4- ```Iterative_Constructs_Lists_Tuples_1``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 1).
   
-  - 5- ```Iterative_Constructs_Lists_Tuples_2``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 2).
+  5- ```Iterative_Constructs_Lists_Tuples_2``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 2).
   
-  - 6- ```User_Defined_Functions``` - contains problems, solutions and Python codes related to user-defined functions.
+  6- ```User_Defined_Functions``` - contains problems, solutions and Python codes related to user-defined functions.
 
-  - 7- ```User_Input_Expression_Library_Functions``` - contains problems, solutions and Python codes related to user input in arithmetic expressions, and library functions. 
+  7- ```User_Input_Expression_Library_Functions``` - contains problems, solutions and Python codes related to user input in arithmetic expressions, and library functions. 
 
 </br>
 
-#
 ### <b>Repository Structure :</b>
 
 <details>
@@ -111,15 +111,11 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 </br>
 
 ###
-###
-
   <p align="right"><a href="#readme-top">Back to TOP</a></p>
   </br>
   
 <a name="a2"></a>
 ## Prerequisites, Techstack and Setup
-
-<br>
 
 ### Language:
 * Basic understanding of programming concepts is helpful but not mandatory.
