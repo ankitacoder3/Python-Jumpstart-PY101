@@ -26,27 +26,27 @@ The problems and codes in ```PY101``` are based on the ```Python Lab Courses```,
 <a name="a1"></a>
 ## Introduction
 
-The repo ```Python-Jumpstart-PY101``` is a  <i> **PYTHON CODEBASE** </i>, and is the perfect starter kit to learn ```PYTHON```.
+The repo ```Python-Jumpstart-PY101``` is a  <i> **PYTHON CODEBASE** </i>, and is the perfect **starter kit** to learn ```PYTHON```.
 
-The **Course** ```PY101``` is designed to be <i> **beginner-friendly** </i>, and provides a <i> **step-by-step guide** </i>, to **Solve various problems** .
+The **course** ```PY101``` is designed to be <i> **beginner-friendly** </i>, and to provide a <i> **step-by-step guide** </i>, to **solve various problems** .
 
 The problems solved in ```PY101``` range from <i> **simple** </i> to <i> **complex** </i>, aiding you to master the PYTHON language.
 
-Welcome to ```PY101```!!
-Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
-Find a detailed guide below on how to efficently use ```PY101```.
+Welcome to ```PY101```!!
+
+Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
 </br>
 
 
 ### <b>Files :</b>
 
-  In the ````PY101` Directory``` there are several directories:
+  In the ```'PY101' Directory``` there are several directories:
   
- - 1- ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
+    1- ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
     
-  - 2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
+    2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
     
   - 3- ```Input_Output_Arithmetic_Operations``` - contains problems, solutions and Python codes related to input-output and arithmetic operations.
     
