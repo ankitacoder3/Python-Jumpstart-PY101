@@ -10,9 +10,7 @@ It contains a variety of solved problems, ranging from very simple to complex pr
 The problems and codes in ```PY101``` are based on the ```Python Lab Courses```, which was part of the course ```UE20CS102```.
 
 <br>
-
 <details open>
-
   <summary>Table of Contents</summary>
     <li> <a href="#a1">Introduction</a></li>
     <li> <a href="#a2">Prerequisites, Techstack and Setup</a></li>
@@ -20,7 +18,6 @@ The problems and codes in ```PY101``` are based on the ```Python Lab Courses```,
     <li>  <a href="#a5">Features</a></li>
     <li>  <a href="#a4">Usage</a></li>
   <a href="#end"><u><i>Skip to END...</i></u></a>
-  
 </details>
 </br>
 
@@ -143,9 +140,8 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   ```sh
   pip install <package_name>
   ```
-
+<br>
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
-</br>
 
 <a name="a3"></a> 
 
@@ -155,14 +151,12 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
      ```sh
      git clone https://github.com/ankitacoder3/Python-Jumpstart-PY101.git
       ```
-     <br>
      
  2. Navigate to the ```'PY101' Directory``` in that.
     ```sh
     cd Python-Jumpstart-PY101
     cd PY101
-    ```
-  <br>
+    ```>
 
   3. Navigate to ```ANY of the Directories``` and ```execute the respective files``` present in that directory, by following the below ```given steps```. 
 
@@ -211,9 +205,9 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
         ```
 
         * Then ```follow the instructions```, which appear on ```command prompt```.
-
+  
+  <br>
   <p align="right"><a href="#readme-top">Back to TOP</a></p>
-  </br>
 
  <a name="a4"></a> 
 
@@ -235,9 +229,8 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
  
       The problems are designed to be practical and relevant, helping you apply Python concepts in real-world scenarios.
 
-
+<br>
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
-</br>
 
 <a name="a5"></a>
 
@@ -257,8 +250,8 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
     * It is particularly useful for courses that require practical problem-solving skills in Python, such as any introductory programming course.
     * The repository's structure makes it easy to navigate through different topics and find specific solutions.
 
+<br>
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
-</br>
 
 <a name="end"></a>
 Thank you for exploring the PY101 course. Happy Coding and learning Python! 
