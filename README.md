@@ -40,14 +40,12 @@ Welcome to ```PY101```!!
 
 Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
-</br>
-
 
 ### <b>Files :</b>
 
   In the ```'PY101' Directory``` there are several directories:
   
-  1- ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
+  1 ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
     
   2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
     
@@ -64,63 +62,62 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
 ### <b>Repository Structure :</b>
 
-<details>
-  <summary color= blue ><u><b><i>PY101 repo structure</i></b> click...</u></summary>
+  <details>
+    <summary color= blue ><u><b><i>PY101 repo structure</i></b> click...</u></summary>
 
-  Below is the structure of the ```PY101``` project repository
-  
-  ```plaintext
-    Python-Jumpstart-PY101/
-    │   
-    ├── PY101/                              # Code Repository Folder
-    │   │              
-    │   ├── Dictionary_Files/                  
-    │   │    └── ReadMe_programs.txt
-    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-    │   │     
-    │   ├── Functions_Recursion_Callback_Closure/                
-    │   │    ├── ReadMe_programs.txt
-    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-    │   │ 
-    │   ├── Input_Output_Arithmetic_Operations/                
-    │   │    └── ReadMe_programs.txt
-    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-    │   │ 
-    │   ├── Iterative_Constructs_Lists_Tuples_1/                
-    │   │    └── ReadMe_programs.txt
-    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-    │   │ 
-    │   ├── Iterative_Constructs_Lists_Tuples_2/                
-    │   │    └── ReadMe_programs.txt
-    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-    │   │ 
-    │   ├── User_Defined_Functions/               
-    │   │    └── ReadMe_programs.txt
-    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-    │   │ 
-    │   ├── User_Input_Expression_Library_Functions/                 
-    │   │    └── ReadMe_programs.txt
-    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-    │   │ 
-    │   └── LICENSE.txt                     # License file
-    │   
-    └─── README.md                          # Repository README
+    Below is the structure of the ```PY101``` project repository
     
-  ```
+    ```plaintext
+      Python-Jumpstart-PY101/
+      │   
+      ├── PY101/                              # Code Repository Folder
+      │   │              
+      │   ├── Dictionary_Files/                  
+      │   │    └── ReadMe_programs.txt
+      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+      │   │     
+      │   ├── Functions_Recursion_Callback_Closure/                
+      │   │    ├── ReadMe_programs.txt
+      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+      │   │ 
+      │   ├── Input_Output_Arithmetic_Operations/                
+      │   │    └── ReadMe_programs.txt
+      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+      │   │ 
+      │   ├── Iterative_Constructs_Lists_Tuples_1/                
+      │   │    └── ReadMe_programs.txt
+      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+      │   │ 
+      │   ├── Iterative_Constructs_Lists_Tuples_2/                
+      │   │    └── ReadMe_programs.txt
+      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+      │   │ 
+      │   ├── User_Defined_Functions/               
+      │   │    └── ReadMe_programs.txt
+      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+      │   │ 
+      │   ├── User_Input_Expression_Library_Functions/                 
+      │   │    └── ReadMe_programs.txt
+      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+      │   │ 
+      │   └── LICENSE.txt                     # License file
+      │   
+      └─── README.md                          # Repository README
+      
+    ```
 
-</details>
+  </details>
 
 <br>
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
 </br>
   
 <a name="a2"></a>
+
 ## Prerequisites, Techstack and Setup
 
 ### Language:
 * Basic understanding of programming concepts is helpful but not mandatory.
-
-<br>
 
 ### Libraries:
 * Standard Python libraries, which are included with the default Python installation:
