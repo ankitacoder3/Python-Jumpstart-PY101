@@ -41,11 +41,12 @@ Welcome to ```PY101```!!
 Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
 
+
 ### <b>Files :</b>
 
   In the ```'PY101' Directory``` there are several directories:
   
-  1 ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
+  -1 ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
     
   2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
     
@@ -58,6 +59,7 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   6- ```User_Defined_Functions``` - contains problems, solutions and Python codes related to user-defined functions.
 
   7- ```User_Input_Expression_Library_Functions``` - contains problems, solutions and Python codes related to user input in arithmetic expressions, and library functions. 
+
 
 
 ### <b>Repository Structure :</b>
@@ -131,7 +133,6 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   * Recommended options include [PyCharm](https://www.jetbrains.com/pycharm/), [VS Code](https://code.visualstudio.com/),  or [Jupyter Notebook](https://jupyter.org/).
   * Basic knowledge of how to use the command line or terminal
   * Familiarity with basic commands for navigating directories and running scripts
-
 
 ### Setup:
 * Ensure your Python environment is properly set up by verifying the installation and checking the version:
@@ -213,16 +214,14 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
         ```
 
         * Then ```follow the instructions```, which appear on ```command prompt```.
+
   <br>
-  
   <p align="right"><a href="#readme-top">Back to TOP</a></p>
   </br>
-   </br>
 
- <a name="a5"></a> 
+ <a name="a4"></a> 
+
   ## Features
-
-  <br>
 
   1.  **Problem Solving with Python**
      
@@ -239,13 +238,14 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
   4.  **Practical Applications**
  
       The problems are designed to be practical and relevant, helping you apply Python concepts in real-world scenarios.
-  <br>
-
-
-<a name="a4"></a>
-## Usage
 
 <br>
+<p align="right"><a href="#readme-top">Back to TOP</a></p>
+</br>
+
+<a name="a5"></a>
+
+## Usage
 
 * The course ***PY101*** can serve as a comprehensive ***guide for learning Python***.
 
@@ -256,13 +256,13 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 * It can be used as a ***reference for solving*** common programming problems ***in Python***.
 
 * The codes in `PY101` could also be used as a `Python Lab Courses`, like `UE20CS102` or ue20cs102.
-
-      
+  
 * Other Examples or Other Usage:
     * It is particularly useful for courses that require practical problem-solving skills in Python, such as any introductory programming course.
     * The repository's structure makes it easy to navigate through different topics and find specific solutions.
+<br>
+<p align="right"><a href="#readme-top">Back to TOP</a></p>
+</br>
 
-  <p align="right"><a href="#readme-top">Back to TOP</a></p>
-  </br>
 <a name="end"></a>
 Thank you for exploring the PY101 course. Happy Coding and learning Python! 
