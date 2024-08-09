@@ -15,8 +15,8 @@ The problems and codes in ```PY101``` are based on the ```Python Lab Courses```,
     <li> <a href="#a1">Introduction</a></li>
     <li> <a href="#a2">Prerequisites, Techstack and Setup</a></li>
     <li> <a href="#a3">Steps for Execution </a></li>
-    <li>  <a href="#a5">Features</a></li>
-    <li>  <a href="#a4">Usage</a></li>
+    <li>  <a href="#a4">Features</a></li>
+    <li>  <a href="#a5">Usage</a></li>
   <a href="#end"><u><i>Skip to END...</i></u></a>
 </details>
 </br>
@@ -43,73 +43,72 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
   In the ```'PY101' Directory``` there are several directories:
   
-  -1 ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
+  1. ```Dictionary_Files``` - contains problems, solutions and Python codes related to dictionaries.
     
-  2- ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
+  2. ```Functions_Recursion_Callback_Closure``` - contains problems, solutions and Python codes related to functions, which are based on the recursion, callback, and closure concepts.
     
-  3- ```Input_Output_Arithmetic_Operations``` - contains problems, solutions and Python codes related to input-output and arithmetic operations.
+  3. ```Input_Output_Arithmetic_Operations``` - contains problems, solutions and Python codes related to input-output and arithmetic operations.
     
-  4- ```Iterative_Constructs_Lists_Tuples_1``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 1).
+  4. ```Iterative_Constructs_Lists_Tuples_1``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 1).
   
-  5- ```Iterative_Constructs_Lists_Tuples_2``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 2).
+  5. ```Iterative_Constructs_Lists_Tuples_2``` - contains problems, solutions and Python codes related to iterative constructs like, lists, and tuples (part 2).
   
-  6- ```User_Defined_Functions``` - contains problems, solutions and Python codes related to user-defined functions.
+  6. ```User_Defined_Functions``` - contains problems, solutions and Python codes related to user-defined functions.
 
-  7- ```User_Input_Expression_Library_Functions``` - contains problems, solutions and Python codes related to user input in arithmetic expressions, and library functions. 
+  7. ```User_Input_Expression_Library_Functions``` - contains problems, solutions and Python codes related to user input in arithmetic expressions, and library functions. 
 
 </br>
 
 ### <b>Repository Structure :</b>
 
-  <details>
-    <summary color= blue ><u><b><i>PY101 repo structure</i></b> click...</u></summary>
+<details>
+  <summary color= blue ><u><b><i>PY101 repo structure</i></b> click...</u></summary>
 
-    Below is the structure of the ```PY101``` project repository
+  Below is the structure of the ```PY101``` project repository
+  
+  ```plaintext
+    Python-Jumpstart-PY101/
+    │   
+    ├── PY101/                              # Code Repository Folder
+    │   │              
+    │   ├── Dictionary_Files/                  
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │     
+    │   ├── Functions_Recursion_Callback_Closure/                
+    │   │    ├── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   ├── Input_Output_Arithmetic_Operations/                
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   ├── Iterative_Constructs_Lists_Tuples_1/                
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   ├── Iterative_Constructs_Lists_Tuples_2/                
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   ├── User_Defined_Functions/               
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   ├── User_Input_Expression_Library_Functions/                 
+    │   │    └── ReadMe_programs.txt
+    │   │    └── All the program files mentioned in './ReadMe_programs.txt'
+    │   │ 
+    │   └── LICENSE.txt                     # License file
+    │   
+    └─── README.md                          # Repository README
     
-    ```plaintext
-      Python-Jumpstart-PY101/
-      │   
-      ├── PY101/                              # Code Repository Folder
-      │   │              
-      │   ├── Dictionary_Files/                  
-      │   │    └── ReadMe_programs.txt
-      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-      │   │     
-      │   ├── Functions_Recursion_Callback_Closure/                
-      │   │    ├── ReadMe_programs.txt
-      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-      │   │ 
-      │   ├── Input_Output_Arithmetic_Operations/                
-      │   │    └── ReadMe_programs.txt
-      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-      │   │ 
-      │   ├── Iterative_Constructs_Lists_Tuples_1/                
-      │   │    └── ReadMe_programs.txt
-      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-      │   │ 
-      │   ├── Iterative_Constructs_Lists_Tuples_2/                
-      │   │    └── ReadMe_programs.txt
-      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-      │   │ 
-      │   ├── User_Defined_Functions/               
-      │   │    └── ReadMe_programs.txt
-      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-      │   │ 
-      │   ├── User_Input_Expression_Library_Functions/                 
-      │   │    └── ReadMe_programs.txt
-      │   │    └── All the program files mentioned in './ReadMe_programs.txt'
-      │   │ 
-      │   └── LICENSE.txt                     # License file
-      │   
-      └─── README.md                          # Repository README
-      
-    ```
+  ```
 
   </details>
 
 <br>
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
-</br>
   
 <a name="a2"></a>
 
@@ -156,31 +155,28 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
     ```sh
     cd Python-Jumpstart-PY101
     cd PY101
-    ```>
+    ```
 
   3. Navigate to ```ANY of the Directories``` and ```execute the respective files``` present in that directory, by following the below ```given steps```. 
-
-      <br>
-
      
-      i.  ***Navigation*** :
-          <br><br>
+      i. ***Navigation*** :
+          <br>
           Navigate to the respective directory.
           <br>
           ( For example: Navigate to the **'Dictionary_Files' Directory**.)
-        ```sh
-        cd Dictionary_Files
-        ```
+          <br>
+            ```sh
+            cd Dictionary_Files
+            ```
       
-      <br>
-      
-     ii.  ***Execution*** :
-
-     By opening ```any file``` in ```python idle``` or ```command prompt```, and running it.
+      ii. ***Execution*** :
+          <br>
+          By opening ```any file``` in ```python idle``` or ```command prompt```, and running it.
      
      <br>
      
-     a. * To execute any file from Python IDLE,
+      a. ***Python IDLE*** 
+       * To execute any file from Python IDLE,
         ```sh
         Open the python file <filename> in the IDLE and Run the file
         ```
@@ -255,3 +251,5 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 
 <a name="end"></a>
 Thank you for exploring the PY101 course. Happy Coding and learning Python! 
+
+###
