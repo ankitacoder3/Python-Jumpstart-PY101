@@ -253,6 +253,6 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
 
 <a name="end"></a>
-Thank you for exploring the PY101 course. Happy Coding and learning Python!!
+Thank you for exploring the PY101 course. Happy Coding and learning Python!! ![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 ###
