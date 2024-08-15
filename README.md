@@ -252,6 +252,8 @@ Have fun solving the problems, and learning ```PYTHON``` in ```PY101```!
 <br>
 <p align="right"><a href="#readme-top">Back to TOP</a></p>
 
+<br>
+
 <a name="end"></a>
 Thank you for exploring the PY101 course. Happy Coding and learning Python!! 🐍🧑‍💻 
 
